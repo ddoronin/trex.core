@@ -4,7 +4,7 @@
   "description": "<T>Rex Core Components",
   "main": "src/index.ts",
   "repository": "git@github.com:ddoronin/trex.core.git",
-  "author": "Dima Doronin",
+  "author": "Dima Doronin <doronindm@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@reactivex/rxjs": "^5.5.5",
