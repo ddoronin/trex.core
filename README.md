@@ -1,6 +1,6 @@
 # &lt;T>Rex Core Components
 
-[![Node version](https://img.shields.io/node/v/trex.core.svg?style=flat)](http://nodejs.org/download/)
+[![https://nodei.co/npm/trex.core.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/YOUR-MODULE-NAME.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/trex.core)
 
 ## Simple Dependency Injection
 
