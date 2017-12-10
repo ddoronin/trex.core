@@ -1,3 +1,3 @@
-import './ServiceLocator';
-import './XComponent';
-import './XHttpComponent';
+export * from './ServiceLocator';
+export * from './XComponent';
+export * from './XHttpComponent';
