@@ -12,7 +12,7 @@ export class Binder<T> {
     }
 }
 
-export default class ServiceLocator {
+export class ServiceLocator {
     private locator: Map<string, any> = new Map();
 
     bind<T>(type: string): Binder<T> {

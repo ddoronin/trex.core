@@ -4,7 +4,7 @@ import 'rxjs/add/operator/mergeMap';
 
 import {Observable} from "rxjs/Observable";
 import {Subscription} from "rxjs/Subscription";
-import XComponent from "./XComponent";
+import {XComponent} from "./XComponent";
 
 export interface IFragmentState {
     fragment: JSX.Element
@@ -26,7 +26,7 @@ export interface IHttpBag<T, E> {
     error?: E;
 }
 
-export default abstract class XHttpComponent<P, S extends IFragmentState, T> extends XComponent<P, S> {
+export abstract class XHttpComponent<P, S extends IFragmentState, T> extends XComponent<P, S> {
     private subscription: Subscription;
 
     constructor(props: P) {
