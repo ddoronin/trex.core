@@ -1,6 +1,6 @@
 {
   "name": "trex.core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "<T>Rex Core Components",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
