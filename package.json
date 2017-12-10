@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "run": "ts-node ./src/index.ts",
-    "prepublishOnly": "tsc -p ./ --outDir lib/"
+    "prepublishOnly": "rm -rf lib && tsc --declaration -p ./tsconfig.json --outDir lib/"
   },
   "dependencies": {
     "@reactivex/rxjs": "^5.5.5",
