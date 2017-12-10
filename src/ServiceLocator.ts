@@ -1,4 +1,4 @@
-class Binder<T> {
+export class Binder<T> {
     private readonly type: string;
     private readonly locator: Map<string, any>;
 
