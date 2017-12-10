@@ -1,6 +1,6 @@
 # &lt;T>Rex Core Components
 
-[![https://nodei.co/npm/trex.core.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/YOUR-MODULE-NAME.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/trex.core)
+[![https://nodei.co/npm/trex.core.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/trex.core.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/trex.core)
 
 ## Simple Dependency Injection
 
