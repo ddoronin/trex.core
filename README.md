@@ -1,5 +1,7 @@
 # &lt;T>Rex Core Components
 
+[![Node version](https://img.shields.io/node/v/trex.core.svg?style=flat)](http://nodejs.org/download/)
+
 ## Simple Dependency Injection
 
 ```typescript
