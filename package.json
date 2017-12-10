@@ -2,10 +2,15 @@
   "name": "trex.core",
   "version": "0.0.1",
   "description": "<T>Rex Core Components",
-  "main": "src/index.ts",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "repository": "git@github.com:ddoronin/trex.core.git",
   "author": "Dima Doronin <doronindm@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "run": "ts-node ./src/index.ts",
+    "prepublishOnly": "tsc -p ./ --outDir lib/"
+  },
   "dependencies": {
     "@reactivex/rxjs": "^5.5.5",
     "@types/react": "^16.0.28",

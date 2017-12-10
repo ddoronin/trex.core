@@ -1,7 +1,6 @@
 // RxJS Extensions
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/mergeMap';
-import 'rxjs/add/operator/mergeMapTo';
 
 import {Observable} from "rxjs/Observable";
 import {Subscription} from "rxjs/Subscription";
@@ -27,7 +26,7 @@ export interface IHttpBag<T, E> {
     error?: E;
 }
 
-export default abstract class ReXHttpComponent<P, S extends IFragmentState, T> extends XComponent<P, S> {
+export default abstract class XHttpComponent<P, S extends IFragmentState, T> extends XComponent<P, S> {
     private subscription: Subscription;
 
     constructor(props: P) {
