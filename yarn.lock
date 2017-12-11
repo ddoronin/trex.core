@@ -8,6 +8,10 @@
   dependencies:
     symbol-observable "1.0.1"
 
+"@types/node@^8.0.57":
+  version "8.0.57"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.57.tgz#e5d8b4dc112763e35cfc51988f4f38da3c486d99"
+
 "@types/react@^16.0.28":
   version "16.0.28"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.28.tgz#eb0b31272528da8f20477ec27569c4f767315b33"
