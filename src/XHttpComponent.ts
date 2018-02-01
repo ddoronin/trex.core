@@ -1,6 +1,6 @@
 // RxJS Extensions
 import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/mergeMap';
+import 'rxjs/add/operator/switchMap';
 
 import {Observable} from "rxjs/Observable";
 import {Subscription} from "rxjs/Subscription";
@@ -37,7 +37,7 @@ export abstract class XHttpComponent<P, S extends IFragmentState, T> extends XCo
 
     componentDidMount() {
         this.subscription = this.props$
-            .mergeMap(props => this.sourceData(props))
+            .switchMap(props => this.sourceData(props))
             .map(httpBag => this.renderFragment(httpBag))
             .subscribe(jsxFragment => {
                 this.setState({fragment: jsxFragment});
